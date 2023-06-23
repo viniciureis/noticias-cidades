@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #fff url(css/fundo.png) repeat-x; 
+}
+#container{
+  width: 750px;
+  margin: 0 auto;
+
+}
+#topo{
+  height: 150px;
+  padding-top: 25px;
+  background: url(css/detalhe-topo.png) no-repeat right top;
+ 
+}
+.logo{
+  width: 152px;
+  height:66px ;
+  background: url(css/logo.png) no-repeat center;
+ text-indent:-800px ;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#topo ul {
+ margin-top: 30px;
+  background: #b10333;
+  float: left;
+
+}
+#topo ul li{
+  float: left;
+}
+#topo ul a {
+font-size: 0.9em;
+display: block;
+padding: 0.5em 1.5em;
+line-height: 2.1em;
+text-decoration: none;
+color: #ffffff;
+background: url(css/divisor.png)no-repeat left center;
+}
+#topo ul .primeiro a {
+  background: none;
+}
+#topo ul a:hover{
+  color:#69001d;
+}
+body.home #navegacao a#Home,
+body.home #navegacao a#brasil,
+body.home #navegacao a#internacional
+{
+color: #fff;
+background: #de003e;
+cursor: t;
+}
+#conteudo{
+  background: #f5f5f5;
+  margin-top: 60px;
+}
+#lateral{
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+ 
+}
+ #primario{
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+
+}
+#duas-coluna #primario{
+  width: 555px;
+
+}
+#uma-coluna #primario{
+  width: 750px;
+  margin: 0 0 20px ;
+  
+}
+#secundario{
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+ 
+}
+
+/*rodape*/
+#container-rodape{
+  background: #294c71;
+ width: 1368px;
+ margin-left: -350px;
+  padding: 20px;
+}
+#rodape
+{
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+}
+.caixa{
+  background: #f3f3f3 url(css/fundo-caixa.png);
+  padding: 5px 0px 5px 0px;
+  margin: 10px 0px;
+}
+h2{
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
+.caixa-conteudo{
+  background: #fff;
+  padding: 5px;
+margin-top: 5px;
+}
+#lateral ul a{
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+  background: #f9f9f9 url(css/marcador.png) no-repeat left center;
+color: #a1a1a1;
+padding-left: 20px;
+
+}
+label{
+  display: block;
+  cursor: pointer;
+}
+input{
+  padding: 5px;
+  width: 125px;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #970529;
+}
+
+img.imagem-principal{
+  width: 98%;
+  border:3px solid #dfdfdf ;
+}
+h3{
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+} 
+.destaque h3 {
+  
+}
